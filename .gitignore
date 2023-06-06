@@ -1,0 +1,40 @@
+# Dependency directories
+/node_modules
+
+# Built files
+/build
+/dist
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+/.vscode
+/.idea
+*.iml
+*.ipr
+*.iws
+
+# macOS files
+.DS_Store
+
+# Logs
+/log
+
+# Dependency lock files
+/yarn.lock
+/package-lock.json
+npm-debug.log*
+
+# Build cache
+/.yarn/cache
+/.pnp
+
+# Testing files
+/coverage
+
+# Editor backup files
+*~
