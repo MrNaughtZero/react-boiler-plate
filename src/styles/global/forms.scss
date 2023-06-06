@@ -1,0 +1,30 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.form-group-inline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.form-grow {
+    * {
+        flex-grow: 1;
+    }
+}
+
+.form-group-no-gap {
+    gap: 0;
+}
+
+.form-group-small-gap {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}

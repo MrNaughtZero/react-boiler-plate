@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@assets": ["./assets"],
+            "@atoms": ["./atoms"],
+            "@common": ["./common"],
+            "@components": ["./components"],
+            "@helpers": ["./helpers"],
+            "@pages": ["./Pages"],
+            "@styles": ["./styles"],
+            "@router": ["./router"]
+        }
+    },
+    "exclude": ["node_modules"]
+}

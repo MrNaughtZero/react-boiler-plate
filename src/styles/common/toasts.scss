@@ -1,0 +1,11 @@
+// /* Default style for React Toastify */
+// .Toastify__toast-container {
+//     width: auto;
+// }
+
+/* Style for tablet/desktop devices with width of 400px */
+@media screen and (min-width: 500px) {
+    .Toastify__toast-container {
+        width: 400px;
+    }
+}

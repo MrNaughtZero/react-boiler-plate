@@ -1,0 +1,41 @@
+@mixin mobile-only() {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin medium-mobile-screen() {
+    @media (max-width: 520px) {
+        @content;
+    }
+}
+
+@mixin tablet-only() {
+    @media (min-width: 768px) and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin tablet-up() {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin tablet-down() {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin desktop-only() {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin desktop-down() {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}

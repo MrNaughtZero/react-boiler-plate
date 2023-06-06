@@ -1,0 +1,40 @@
+@import "./variables.scss";
+
+body {
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: $inter;
+    background-color: $white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $inter;
+    font-weight: 600;
+}
+
+a,
+span,
+p,
+input {
+    font-family: $inter;
+    color: $black;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.disabled {
+    pointer-events: none !important;
+}
